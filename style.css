@@ -1,0 +1,81 @@
+html {
+  font-size: 10px;
+  background: url('./assets/img/wallpaper.png');
+  background-repeat: round;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color:cornsilk;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+  width: 300px;
+  padding: 15px;
+}
+
+.grupo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.gato {
+ width: 150px;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  margin: 8rem 0rem 6rem 0rem;
+}
+
+.key {
+  border: 5px solid #0796B5;
+  border-radius: 50%;
+  margin: 3rem;
+  font-size: 1.5rem;
+  padding: 2rem 3rem;
+  transition: all .2s ease;
+  text-align: center;
+  color: #0796B5;
+  font-weight: bold;
+  background: cornsilk;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #F58B55;
+  color: #F58B55;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.instruction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1{
+  background-color: cornsilk;
+  padding: 30px;
+  color: #0796B5;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 5px;
+}
