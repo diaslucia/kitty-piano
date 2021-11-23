@@ -1,6 +1,8 @@
 // To Play de Sound
 
 const playSound = (e) => {
+     e.preventDefault();
+     e.stopPropagation();
     const audio = document.querySelector(`#${e.key}`);
     const key = document.querySelector(`.${e.key}`);
     const uppercaseKey = e.key.toUpperCase();
