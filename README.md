@@ -7,4 +7,4 @@ _I took the day-one challenge of "#Javascript30 Coding Challenge" and I recreate
 _I've used HTML/CSS/JAVASCRIPT._
 
 ## #JAVASCRIPT30 Coding Challenge
-* https://courses.wesbos.com/account
+* https://javascript30.com/
